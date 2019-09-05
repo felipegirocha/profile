@@ -1,0 +1,72 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  background-color: #F1F1F1;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  text-align: center;
+  margin: 15px;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 3px lightgrey;
+}
+
+
+ul.list-inline {
+  padding-left: 0
+}
+ul.list-inline > li {
+  font-size: 50px;
+  display: inline;
+  padding: 10px;
+}
+ul.list-inline a {
+  text-decoration: none;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+  background-color: #ff502f;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background-color: #eb7070;
+  box-shadow: 0 2px 3px lightgrey
+}
+
+
